@@ -1,0 +1,69 @@
+{
+    "editor.inlineSuggest.enabled": true,
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "fish": {
+            "path": "/opt/homebrew/bin/fish",
+            "args": [
+                "-l"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "vim.useSystemClipboard": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false
+    },
+    "notebook.lineNumbers": "on",
+    "workbench.colorCustomizations":{
+        "editor.selectionHighlightBorder" : "#f7f3f5", 
+    },
+    "files.autoSave": "onFocusChange",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.stickyScroll.enabled": true,
+    "workbench.editor.wrapTabs": true,
+    "git.confirmSync": false,
+    "editor.renderLineHighlight": "all",
+    "editor.wordWrap": "on",
+    "notebook.output.wordWrap": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.renderWhitespace": "all",
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.editor.enableCodeActions": false,
+    "jupyter.askForKernelRestart": false,
+    "window.zoomLevel": 1,
+    "explorer.confirmDelete": false,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoFormatStrings": true,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "notebook.stickyScroll.enabled": true,
+    "editor.minimap.showSlider": "always",
+    "editor.lineNumbers": "relative",
+}

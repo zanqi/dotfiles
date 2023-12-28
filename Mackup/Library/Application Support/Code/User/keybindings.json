@@ -1,0 +1,195 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+g",
+        "command": "-extension.vim_ctrl+g",
+        "when": "editorTextFocus && vim.active && vim.use<C-g> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-deleteLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-extension.vim_ctrl+h",
+        "when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-extension.vim_navigateCtrlL",
+        "when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-notebook.centerActiveCell",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "cmd+h",
+        "command": "workbench.action.splitEditorLeft"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-extension.vim_ctrl+j",
+        "when": "editorTextFocus && vim.active && vim.use<C-j> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-editor.action.joinLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "-extension.vim_ctrl+k",
+        "when": "editorTextFocus && vim.active && vim.use<C-k> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "-deleteAllRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.navigateDown"
+    },
+    {
+        "key": "cmd+m cmd+m",
+        "command": "editor.toggleFold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "cmd+k cmd+l",
+        "command": "-editor.toggleFold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "alt+h",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "cmd+k cmd+left",
+        "command": "-workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "alt+l",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "cmd+k cmd+right",
+        "command": "-workbench.action.focusRightGroup"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.focusAboveGroup"
+    },
+    {
+        "key": "cmd+k cmd+up",
+        "command": "-workbench.action.focusAboveGroup"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.focusBelowGroup"
+    },
+    {
+        "key": "cmd+k cmd+down",
+        "command": "-workbench.action.focusBelowGroup"
+    },
+    {
+        "key": "alt+h",
+        "command": "-gitlens.showQuickFileHistory",
+        "when": "gitlens:enabled && config.gitlens.keymap == 'alternate'"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "revealFileInOS",
+        "when": "editorFocus || !editorFocus"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-toggleFindRegex",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-toggleSearchRegex",
+        "when": "searchViewletFocus"
+    },
+    {
+        "key": "shift+enter",
+        "command": "python.execInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "jupyter.execSelectionInteractive",
+        "when": "editorTextFocus && jupyter.ownsSelection && !findInputFocussed && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-jupyter.execSelectionInteractive",
+        "when": "editorTextFocus && jupyter.ownsSelection && !findInputFocussed && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+    },
+    {
+        "key": "alt+t",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+shift+9",
+        "command": "editor.emmet.action.wrapWithAbbreviation"
+    },
+    {
+        "key": "cmd+f10",
+        "command": "notebook.cell.executeCellAndBelow"
+    }
+]

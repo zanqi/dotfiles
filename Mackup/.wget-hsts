@@ -1,0 +1,5 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+homes.cs.washington.edu	0	1	1699496807	15768000
+web.stanford.edu	0	0	1701371478	0
