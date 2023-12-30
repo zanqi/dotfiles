@@ -6,3 +6,14 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	gr = log --all --graph --decorate --oneline
+	grl = log --all --graph --decorate
+[core]
+	excludesfile = /Users/zanqiliang/.gitignore_global
