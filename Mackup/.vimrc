@@ -94,4 +94,5 @@ nnoremap <C-f> :NERDTreeFind<CR>
 " autocmd StdinReadPre * let s:std_in=1
 " autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
 
+set expandtab
 set ts=4 sw=4
