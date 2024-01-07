@@ -66,4 +66,5 @@
     "notebook.stickyScroll.enabled": true,
     "editor.minimap.showSlider": "always",
     "editor.lineNumbers": "relative",
+    "redhat.telemetry.enabled": false,
 }

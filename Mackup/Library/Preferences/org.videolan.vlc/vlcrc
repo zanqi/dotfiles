@@ -1838,7 +1838,7 @@ macosx-nativefullscreenmode=1
 auhal-volume=410
 
 # Last audio device (string)
-auhal-audio-device=0
+auhal-audio-device=72
 
 # ? (string)
 #auhal-warned-devices=

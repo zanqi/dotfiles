@@ -17,3 +17,5 @@
 	grl = log --all --graph --decorate
 [core]
 	excludesfile = /Users/zanqiliang/.gitignore_global
+[init]
+	defaultBranch = main

@@ -28,7 +28,10 @@ set number
 " down.
 set relativenumber
 
-" Always show the status line at the bottom, even if you only have one window open.
+""""""""""""""""""""""""""""""
+" => Status line
+""""""""""""""""""""""""""""""
+" Always show the status line
 set laststatus=2
 
 " The backspace key has slightly unintuitive behavior by default. For example,
@@ -94,5 +97,5 @@ nnoremap <C-f> :NERDTreeFind<CR>
 " autocmd StdinReadPre * let s:std_in=1
 " autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
 
-set expandtab
+" set expandtab
 set ts=4 sw=4

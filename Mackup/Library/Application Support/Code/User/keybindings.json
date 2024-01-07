@@ -85,10 +85,6 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "alt+h",
-        "command": "workbench.action.focusLeftGroup"
-    },
-    {
         "key": "cmd+k cmd+left",
         "command": "-workbench.action.focusLeftGroup"
     },
