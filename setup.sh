@@ -37,8 +37,16 @@ pyenv global 3.11.5
 brew install pyenv-virtualenv
 pyenv virtualenv 3.11.5 cs224u
 
-# back to terminal
 # echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
 # echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
 
 # echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+
+brew install mackup
+git clone https://github.com/zanqi/dotfiles.git
+
+echo '[storage]' > ~/.mackup.cfg
+echo 'engine = file_system' >> ~/.mackup.cfg
+echo 'path = dotfiles' >> ~/.mackup.cfg
+
+mackup restore --force && mackup uninstall --force
