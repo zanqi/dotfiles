@@ -175,13 +175,13 @@ macosx-nativefullscreenmode=1
 #macosx-icon-change=1
 
 # Show Previous & Next Buttons (boolean)
-#macosx-show-playback-buttons=0
+macosx-show-playback-buttons=1
 
 # Show Shuffle & Repeat Buttons (boolean)
-#macosx-show-playmode-buttons=0
+macosx-show-playmode-buttons=1
 
 # Show Audio Effects Button (boolean)
-#macosx-show-effects-button=0
+macosx-show-effects-button=1
 
 # Maximum Volume displayed (integer)
 #macosx-max-volume=125
@@ -214,7 +214,7 @@ macosx-nativefullscreenmode=1
 #macosx-control-itunes=1
 
 # Continue playback where you left off (integer)
-#macosx-continue-playback=0
+macosx-continue-playback=1
 
 # Control playback with the Apple Remote (boolean)
 #macosx-appleremote=1
@@ -4026,7 +4026,7 @@ advanced=1
 #global-key-toggle-fullscreen=
 
 # Fullscreen (string)
-#key-toggle-fullscreen=Command+f
+key-toggle-fullscreen=f
 
 # Exit fullscreen (string)
 #global-key-leave-fullscreen=
@@ -4056,13 +4056,13 @@ advanced=1
 #global-key-faster=
 
 # Faster (string)
-#key-faster=Command+=
+key-faster=
 
 # Slower (string)
 #global-key-slower=
 
 # Slower (string)
-#key-slower=Command+-
+key-slower=
 
 # Normal rate (string)
 #global-key-rate-normal=
@@ -4242,7 +4242,7 @@ advanced=1
 #global-key-vol-mute=
 
 # Mute (string)
-#key-vol-mute=Command+Alt+Down
+key-vol-mute=m
 
 # Subtitle delay up (string)
 #global-key-subdelay-up=
@@ -4302,7 +4302,7 @@ advanced=1
 #global-key-audiodelay-down=
 
 # Audio delay down (string)
-#key-audiodelay-down=f
+key-audiodelay-down=
 
 # Cycle audio track (string)
 #global-key-audio-track=
@@ -4332,7 +4332,7 @@ advanced=1
 #global-key-subtitle-toggle=
 
 # Toggle subtitles (string)
-#key-subtitle-toggle=Shift+s
+key-subtitle-toggle=c
 
 # Cycle next program Service ID (string)
 #global-key-program-sid-next=
@@ -4356,7 +4356,7 @@ advanced=1
 #global-key-crop=
 
 # Cycle video crop (string)
-#key-crop=c
+key-crop=
 
 # Toggle autoscaling (string)
 #global-key-toggle-autoscale=
@@ -4692,13 +4692,13 @@ advanced=1
 #global-key-subtitle-text-scale-up=
 
 # Scale down subtitles text (string)
-#key-subtitle-text-scale-up=Command+Mouse Wheel Up
+key-subtitle-text-scale-up=Command-=
 
 # Scale up subtitles text (string)
 #global-key-subtitle-text-scale-down=
 
 # Scale up subtitles text (string)
-#key-subtitle-text-scale-down=Command+Mouse Wheel Down
+key-subtitle-text-scale-down=Command--
 
 # Playlist bookmark 1 (string)
 #bookmark1=

@@ -1,5 +1,5 @@
 save  
-`mackup backup --force && mackup uninstall --force`
+mackup backup --force && mackup uninstall --force
 
 restore  
-`mackup restore --force && mackup uninstall --force`
+mackup restore --force && mackup uninstall --force

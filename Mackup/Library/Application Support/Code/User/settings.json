@@ -52,7 +52,6 @@
     "security.workspace.trust.untrustedFiles": "open",
     "github.copilot.editor.enableCodeActions": false,
     "jupyter.askForKernelRestart": false,
-    "window.zoomLevel": 1,
     "explorer.confirmDelete": false,
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.inlayHints.pytestParameters": true,
@@ -67,4 +66,5 @@
     "editor.minimap.showSlider": "always",
     "editor.lineNumbers": "relative",
     "redhat.telemetry.enabled": false,
+    "window.zoomLevel": 1,
 }

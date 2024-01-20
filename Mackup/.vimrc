@@ -1,5 +1,3 @@
-" Comments in Vimscript start with a `"`.
-
 " If you open this file in Vim, it'll be syntax highlighted for you.
 
 " Vim is based on Vi. Setting `nocompatible` switches from the default
@@ -10,6 +8,14 @@
 " loaded some other way (e.g. saved as `foo`, and then Vim started with
 " `vim -u foo`).
 set nocompatible
+
+let mapleader = " "
+set showcmd
+
+nmap <leader>w :w<CR>
+set clipboard=unnamed
+
+
 
 " Turn on syntax highlighting.
 syntax on
