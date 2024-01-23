@@ -34,8 +34,8 @@ pyenv global 3.11.5
 # pyenv init - | source
 
 # Optional
-brew install pyenv-virtualenv
-pyenv virtualenv 3.11.5 cs224u
+# brew install pyenv-virtualenv
+# pyenv virtualenv 3.11.5 cs224u
 
 # echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
 # echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
