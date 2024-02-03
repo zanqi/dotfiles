@@ -45,8 +45,10 @@ pyenv global 3.11.5
 brew install mackup
 git clone https://github.com/zanqi/dotfiles.git
 
-echo '[storage]' > ~/.mackup.cfg
-echo 'engine = file_system' >> ~/.mackup.cfg
-echo 'path = dotfiles' >> ~/.mackup.cfg
+cp dotfiles/.mackup.cfg ~/
 
 mackup restore --force && mackup uninstall --force
+
+defaults write -g ApplePressAndHoldEnabled -bool false
+defaults write -g InitialKeyRepeat -int 13 # normal minimum is 15 (225 ms)
+defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)

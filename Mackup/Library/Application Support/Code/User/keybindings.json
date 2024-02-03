@@ -89,10 +89,6 @@
         "command": "-workbench.action.focusLeftGroup"
     },
     {
-        "key": "alt+l",
-        "command": "workbench.action.focusRightGroup"
-    },
-    {
         "key": "cmd+k cmd+right",
         "command": "-workbench.action.focusRightGroup"
     },
@@ -187,5 +183,21 @@
     {
         "key": "cmd+f10",
         "command": "notebook.cell.executeCellAndBelow"
+    },
+    {
+        "key": "ctrl+cmd+l",
+        "command": "workbench.action.moveEditorToRightGroup"
+    },
+    {
+        "key": "ctrl+cmd+h",
+        "command": "workbench.action.moveEditorToLeftGroup"
+    },
+    {
+        "key": "ctrl+cmd+k",
+        "command": "workbench.action.moveEditorToAboveGroup"
+    },
+    {
+        "key": "ctrl+cmd+j",
+        "command": "workbench.action.moveEditorToBelowGroup"
     }
 ]
