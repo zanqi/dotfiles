@@ -46,6 +46,8 @@ brew install mackup
 git clone https://github.com/zanqi/dotfiles.git
 
 cp dotfiles/.mackup.cfg ~/
+mkdir /.mackup && cp dotfiles/.mackup/my-files.cfg "$_"
+
 
 mackup restore --force && mackup uninstall --force
 
