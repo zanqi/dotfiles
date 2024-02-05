@@ -1835,7 +1835,7 @@ macosx-continue-playback=1
 [auhal] # HAL AudioUnit output
 
 # Audio volume (integer)
-auhal-volume=346
+auhal-volume=358
 
 # Last audio device (string)
 auhal-audio-device=0
@@ -3942,7 +3942,7 @@ vod-server=any
 #loop=0
 
 # Repeat current item (boolean)
-#repeat=0
+repeat=1
 
 # Play and exit (boolean)
 #play-and-exit=0
