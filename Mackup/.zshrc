@@ -1,4 +1,4 @@
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 bindkey -v
 export PYENV_ROOT="$HOME/.pyenv"

@@ -10,6 +10,8 @@ brew install git
 
 brew install fish
 
+brew install --cask iterm2
+
 git config --global user.email "zanqi.liang@gmail.com"
 
 git config --global user.name "Zanqi"
@@ -54,3 +56,10 @@ mackup restore --force && mackup uninstall --force
 defaults write -g ApplePressAndHoldEnabled -bool false
 defaults write -g InitialKeyRepeat -int 13
 defaults write -g KeyRepeat -int 1
+
+which fish | sudo tee -a /etc/shells
+which fish | xargs chsh -s
+
+fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
+fish -c "fisher install jethrokuan/z"
+fish -c "fisher install IlanCosman/tide@v6"

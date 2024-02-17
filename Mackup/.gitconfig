@@ -19,3 +19,5 @@
 	excludesfile = /Users/zanqiliang/.gitignore_global
 [init]
 	defaultBranch = main
+[pull]
+	rebase = false

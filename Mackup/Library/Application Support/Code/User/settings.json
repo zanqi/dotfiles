@@ -67,4 +67,10 @@
     "editor.lineNumbers": "relative",
     "redhat.telemetry.enabled": false,
     "window.zoomLevel": 1,
+    "grammarly.files.include": [
+        "**/readme.md",
+        "**/README.md",
+        "**/*.txt",
+        "**/*.md"
+    ],
 }
