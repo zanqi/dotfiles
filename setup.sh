@@ -11,9 +11,18 @@ brew install git
 brew install fish
 
 brew install --cask iterm2
+brew install --cask visual-studio-code
+brew install --cask google-chrome
+brew install --cask microsoft-onenote
+brew install --cask vlc
+brew install --cask qbittorrent
+brew install --cask wechat
+brew install --cask rectangle
+brew install --cask google-drive
+brew install --cask grammarly-desktop
+brew install --cask logi-options-plus
 
 git config --global user.email "zanqi.liang@gmail.com"
-
 git config --global user.name "Zanqi"
 
 # fish

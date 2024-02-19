@@ -94,10 +94,10 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
 " NERDTree
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
+" nnoremap <leader>n :NERDTreeFocus<CR>
+" nnoremap <C-n> :NERDTree<CR>
+" nnoremap <C-t> :NERDTreeToggle<CR>
+" nnoremap <C-f> :NERDTreeFind<CR>
 
 " Start NERDTree. If a file is specified, move the cursor to its window.
 " autocmd StdinReadPre * let s:std_in=1
