@@ -69,6 +69,6 @@ defaults write -g KeyRepeat -int 1
 which fish | sudo tee -a /etc/shells
 which fish | xargs chsh -s
 
-fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
-fish -c "fisher install jethrokuan/z"
-fish -c "fisher install IlanCosman/tide@v6"
+# fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
+# fish -c "fisher install jethrokuan/z"
+# fish -c "fisher install IlanCosman/tide@v6"
