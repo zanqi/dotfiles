@@ -73,4 +73,6 @@
         "**/*.txt",
         "**/*.md"
     ],
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": false
 }

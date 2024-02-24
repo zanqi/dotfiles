@@ -199,5 +199,10 @@
     {
         "key": "ctrl+cmd+j",
         "command": "workbench.action.moveEditorToBelowGroup"
+    },
+    {
+        "key": "ctrl+cmd+right",
+        "command": "-workbench.action.terminal.resizePaneRight",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     }
 ]
