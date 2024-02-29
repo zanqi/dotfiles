@@ -74,5 +74,7 @@
         "**/*.md"
     ],
     "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.hidesExplorerArrows": false
+    "material-icon-theme.hidesExplorerArrows": false,
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
 }

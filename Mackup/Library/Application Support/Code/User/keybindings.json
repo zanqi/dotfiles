@@ -204,5 +204,15 @@
         "key": "ctrl+cmd+right",
         "command": "-workbench.action.terminal.resizePaneRight",
         "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+backspace",
+        "command": "-notification.clear",
+        "when": "notificationFocus"
+    },
+    {
+        "key": "cmd+escape",
+        "command": "notifications.clearAll",
+        "when": "notificationToastsVisible"
     }
 ]
