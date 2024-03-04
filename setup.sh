@@ -6,9 +6,14 @@
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-brew install git
+sudo brew install git
 
 brew install fish
+brew install zoxide
+brew install fzf
+$(brew --prefix)/opt/fzf/install
+
+
 
 brew install --cask iterm2
 brew install --cask visual-studio-code
@@ -70,5 +75,4 @@ which fish | sudo tee -a /etc/shells
 which fish | xargs chsh -s
 
 # fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
-# fish -c "fisher install jethrokuan/z"
 # fish -c "fisher install IlanCosman/tide@v6"

@@ -75,6 +75,10 @@
     ],
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.hidesExplorerArrows": false,
-    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
+    "material-icon-theme.activeIconPack": "react",
+    "material-icon-theme.files.color": "#90a4ae",
+    "window.confirmSaveUntitledWorkspace": false,
+    "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
 }

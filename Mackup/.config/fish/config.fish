@@ -13,3 +13,6 @@ alias rmi="rm -i"
 alias mv="mv -i"
 alias mkdir="mkdir -p"
 alias df="df -h"
+
+zoxide init fish | source
+zoxide init --cmd cd fish | source

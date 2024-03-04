@@ -15,3 +15,5 @@ alias mv="mv -i"           # -i prompts before overwrite
 alias mkdir="mkdir -p"     # -p make parent dirs as needed
 alias df="df -h"           # -h prints human readable format
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
