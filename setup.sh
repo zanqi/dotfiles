@@ -6,8 +6,7 @@
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-sudo brew install git
-
+brew install git
 brew install fish
 brew install zoxide
 brew install fzf
