@@ -2,5 +2,5 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 homes.cs.washington.edu	0	1	1699496807	15768000
-courses.edx.org	0	0	1709406496	2592000
+courses.edx.org	0	0	1709711295	2592000
 web.stanford.edu	0	0	1701371478	0
