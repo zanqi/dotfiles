@@ -24,7 +24,8 @@ brew install --cask wechat
 brew install --cask rectangle
 brew install --cask google-drive
 brew install --cask grammarly-desktop
-brew install --cask logi-options-plus
+# logi-options-plus not working
+# brew install --cask logi-options-plus
 
 git config --global user.email "zanqi.liang@gmail.com"
 git config --global user.name "Zanqi"
