@@ -24,6 +24,8 @@ brew install --cask wechat
 brew install --cask rectangle
 brew install --cask google-drive
 brew install --cask grammarly-desktop
+brew install --cask obsidian
+brew install tldr
 # logi-options-plus not working
 # brew install --cask logi-options-plus
 
