@@ -50,7 +50,6 @@ pyenv global 3.11.5
 # echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
 
 # echo 'eval "$(pyenv init -)"' >> ~/.zshrc
-git clone https://github.com/zanqi/SomeNotes.git
 brew install mackup
 git clone https://github.com/zanqi/dotfiles.git
 
