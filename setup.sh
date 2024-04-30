@@ -39,17 +39,8 @@ brew install pyenv
 # avoid a bug from brew version of python: https://stackoverflow.com/a/69517932/2382600
 brew install xz
 
-# set -Ux PYENV_ROOT $HOME/.pyenv
-
-# fish_add_path $PYENV_ROOT/bin
-
-# close and restart fish
-
 pyenv install 3.11.5
 pyenv global 3.11.5
-
-# Now, add this to ~/.config/fish/config.fish:
-# pyenv init - | source
 
 # Optional
 # brew install pyenv-virtualenv
@@ -59,7 +50,7 @@ pyenv global 3.11.5
 # echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
 
 # echo 'eval "$(pyenv init -)"' >> ~/.zshrc
-
+git clone https://github.com/zanqi/SomeNotes.git
 brew install mackup
 git clone https://github.com/zanqi/dotfiles.git
 
