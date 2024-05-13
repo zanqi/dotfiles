@@ -82,4 +82,5 @@
     "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 13,
     "editor.wrappingIndent": "indent",
+    "vim.vimrc.enable": true,
 }

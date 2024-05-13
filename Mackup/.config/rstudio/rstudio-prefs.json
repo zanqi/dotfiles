@@ -1,4 +1,9 @@
 {
     "jobs_tab_visibility": "shown",
-    "document_author": "Zanqi Liang"
+    "document_author": "Zanqi Liang",
+    "initial_working_directory": "~",
+    "soft_wrap_r_files": true,
+    "relative_line_numbers": true,
+    "editor_keybindings": "vim",
+    "posix_terminal_shell": "bash"
 }

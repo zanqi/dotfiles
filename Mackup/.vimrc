@@ -13,6 +13,12 @@ let mapleader = " "
 set showcmd
 
 nmap <leader>w :w<CR>
+nmap j gj
+nmap k gk
+
+nmap H ^
+nmap L $
+
 set clipboard=unnamed
 
 

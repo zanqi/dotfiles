@@ -1835,7 +1835,7 @@ macosx-continue-playback=1
 [auhal] # HAL AudioUnit output
 
 # Audio volume (integer)
-auhal-volume=384
+auhal-volume=358
 
 # Last audio device (string)
 auhal-audio-device=0
@@ -4122,13 +4122,13 @@ key-slower=
 #global-key-jump-short=
 
 # Short backwards jump (string)
-#key-jump-short=Command+Alt+Left
+key-jump-short=Alt-Left
 
 # Short forward jump (string)
 #global-key-jump+short=
 
 # Short forward jump (string)
-#key-jump+short=Command+Alt+Right
+key-jump+short=Alt-Right
 
 # Medium backwards jump (string)
 #global-key-jump-medium=
@@ -4248,13 +4248,13 @@ key-vol-mute=m
 #global-key-subdelay-up=
 
 # Subtitle delay up (string)
-#key-subdelay-up=j
+key-subdelay-up=Shift-Right
 
 # Subtitle delay down (string)
 #global-key-subdelay-down=
 
 # Subtitle delay down (string)
-key-subdelay-down=k
+key-subdelay-down=Shift-Left
 
 # Subtitle sync / bookmark audio timestamp (string)
 #global-key-subsync-markaudio=
