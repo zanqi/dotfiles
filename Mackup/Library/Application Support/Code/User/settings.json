@@ -83,4 +83,5 @@
     "editor.fontSize": 13,
     "editor.wrappingIndent": "indent",
     "vim.vimrc.enable": true,
+    "github.copilot.editor.enableAutoCompletions": true,
 }

@@ -17,7 +17,6 @@ $(brew --prefix)/opt/fzf/install
 brew install --cask iterm2
 brew install --cask visual-studio-code
 brew install --cask google-chrome
-brew install --cask microsoft-onenote
 brew install --cask vlc
 brew install --cask qbittorrent
 brew install --cask wechat
