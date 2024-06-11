@@ -1835,7 +1835,7 @@ macosx-continue-playback=1
 [auhal] # HAL AudioUnit output
 
 # Audio volume (integer)
-auhal-volume=397
+auhal-volume=384
 
 # Last audio device (string)
 auhal-audio-device=0
@@ -4296,7 +4296,7 @@ key-subpos-down=Shift-Down
 #global-key-audiodelay-up=
 
 # Audio delay up (string)
-#key-audiodelay-up=g
+key-audiodelay-up=
 
 # Audio delay down (string)
 #global-key-audiodelay-down=
