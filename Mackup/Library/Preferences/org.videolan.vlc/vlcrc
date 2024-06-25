@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 3.0.20
+###  vlc 3.0.21
 ###
 
 ###
@@ -551,7 +551,7 @@ macosx-continue-playback=1
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 3.0.20 Vetinari
+#sout-avi-encoder=VLC Media Player - 3.0.21 Vetinari
 
 # Keywords (string)
 #sout-avi-keywords=
@@ -1835,7 +1835,7 @@ macosx-continue-playback=1
 [auhal] # HAL AudioUnit output
 
 # Audio volume (integer)
-auhal-volume=384
+auhal-volume=397
 
 # Last audio device (string)
 auhal-audio-device=0
@@ -4086,13 +4086,13 @@ key-slower=
 #global-key-next=
 
 # Next (string)
-#key-next=Command+Right
+key-next=
 
 # Previous (string)
 #global-key-prev=
 
 # Previous (string)
-#key-prev=Command+Left
+key-prev=
 
 # Stop (string)
 #global-key-stop=
@@ -4110,13 +4110,13 @@ key-slower=
 #global-key-jump-extrashort=
 
 # Very short backwards jump (string)
-#key-jump-extrashort=Command+Ctrl+Left
+key-jump-extrashort=Command-Left
 
 # Very short forward jump (string)
 #global-key-jump+extrashort=
 
 # Very short forward jump (string)
-#key-jump+extrashort=Command+Ctrl+Right
+key-jump+extrashort=Command-Right
 
 # Short backwards jump (string)
 #global-key-jump-short=

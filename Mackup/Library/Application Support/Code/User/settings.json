@@ -84,4 +84,5 @@
     "editor.wrappingIndent": "indent",
     "vim.vimrc.enable": true,
     "github.copilot.editor.enableAutoCompletions": true,
+    "explorer.confirmDragAndDrop": false,
 }
