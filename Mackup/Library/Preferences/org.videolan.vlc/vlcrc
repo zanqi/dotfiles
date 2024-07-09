@@ -4086,13 +4086,13 @@ key-slower=
 #global-key-next=
 
 # Next (string)
-key-next=
+key-next=Command-Right
 
 # Previous (string)
 #global-key-prev=
 
 # Previous (string)
-key-prev=
+key-prev=Command-Left
 
 # Stop (string)
 #global-key-stop=
@@ -4110,13 +4110,13 @@ key-prev=
 #global-key-jump-extrashort=
 
 # Very short backwards jump (string)
-key-jump-extrashort=Command-Left
+key-jump-extrashort=
 
 # Very short forward jump (string)
 #global-key-jump+extrashort=
 
 # Very short forward jump (string)
-key-jump+extrashort=Command-Right
+key-jump+extrashort=
 
 # Short backwards jump (string)
 #global-key-jump-short=
