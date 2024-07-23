@@ -79,10 +79,12 @@
     "material-icon-theme.activeIconPack": "react",
     "material-icon-theme.files.color": "#90a4ae",
     "window.confirmSaveUntitledWorkspace": false,
-    "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 13,
     "editor.wrappingIndent": "indent",
     "vim.vimrc.enable": true,
     "github.copilot.editor.enableAutoCompletions": true,
     "explorer.confirmDragAndDrop": false,
+    "vim.useCtrlKeys": false,
+    "keyboard.dispatch": "keyCode",
 }
