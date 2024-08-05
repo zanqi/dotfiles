@@ -87,4 +87,13 @@
     "explorer.confirmDragAndDrop": false,
     "vim.useCtrlKeys": false,
     "keyboard.dispatch": "keyCode",
+    "remote.SSH.connectTimeout": 30,
+    "remote.SSH.useLocalServer": true,
+    "remote.SSH.remotePlatform": {
+        "10.158.54.36": "linux",
+        "ec2-52-42-171-155.us-west-2.compute.amazonaws.com": "linux",
+        "ec2-35-92-191-249.us-west-2.compute.amazonaws.com": "linux",
+        "klone-node": "linux"
+    },
+    "diffEditor.maxComputationTime": 0,
 }
