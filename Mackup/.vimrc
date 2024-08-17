@@ -113,3 +113,9 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " set expandtab
 set ts=4 sw=4
+
+" Use ctrl-[hjkl] to select the active split!
+nmap <silent> <up> :wincmd k<CR>
+nmap <silent> <down> :wincmd j<CR>
+nmap <silent> <left> :wincmd h<CR>
+nmap <silent> <right> :wincmd l<CR>

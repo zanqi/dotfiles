@@ -202,7 +202,7 @@ macosx-show-effects-button=1
 #macosx-video-autoresize=1
 
 # Pause the video playback when minimized (boolean)
-#macosx-pause-minimized=0
+macosx-pause-minimized=1
 
 # Lock Aspect Ratio (boolean)
 #macosx-lock-aspect-ratio=1
@@ -1835,7 +1835,7 @@ macosx-continue-playback=1
 [auhal] # HAL AudioUnit output
 
 # Audio volume (integer)
-auhal-volume=358
+auhal-volume=384
 
 # Last audio device (string)
 auhal-audio-device=0
