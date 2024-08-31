@@ -4110,25 +4110,25 @@ key-prev=Command-Left
 #global-key-jump-extrashort=
 
 # Very short backwards jump (string)
-key-jump-extrashort=
+key-jump-extrashort=Alt-Left
 
 # Very short forward jump (string)
 #global-key-jump+extrashort=
 
 # Very short forward jump (string)
-key-jump+extrashort=
+key-jump+extrashort=Alt-Right
 
 # Short backwards jump (string)
 #global-key-jump-short=
 
 # Short backwards jump (string)
-key-jump-short=Alt-Left
+key-jump-short=
 
 # Short forward jump (string)
 #global-key-jump+short=
 
 # Short forward jump (string)
-key-jump+short=Alt-Right
+key-jump+short=
 
 # Medium backwards jump (string)
 #global-key-jump-medium=
