@@ -34,7 +34,6 @@
         "markdown": true,
         "scminput": false
     },
-    "notebook.lineNumbers": "on",
     "workbench.colorCustomizations":{
         "editor.selectionHighlightBorder" : "#f7f3f5", 
     },
@@ -96,4 +95,5 @@
         "klone-node": "linux"
     },
     "diffEditor.maxComputationTime": 0,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
 }
