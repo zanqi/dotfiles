@@ -119,3 +119,9 @@ nmap <silent> <up> :wincmd k<CR>
 nmap <silent> <down> :wincmd j<CR>
 nmap <silent> <left> :wincmd h<CR>
 nmap <silent> <right> :wincmd l<CR>
+
+:set splitright
+:set splitbelow
+
+:set hlsearch
+
