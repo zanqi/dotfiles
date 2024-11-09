@@ -57,9 +57,7 @@ if [ -d ~/.bashrc.d ]; then
 fi
 
 unset rc
-alias ll='ls -lh --color=auto'
+alias ll='ls -lhF --color=auto'
 
 bind 'set completion-ignore-case on'
-
-
 
