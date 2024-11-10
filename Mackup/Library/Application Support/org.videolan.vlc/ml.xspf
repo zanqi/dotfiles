@@ -18,14 +18,14 @@
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%282%29.mp4</location>
-			<duration>1441309</duration>
+			<duration>3237094</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>2</vlc:id>
 			</extension>
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%281%29.mp4</location>
-			<duration>3565796</duration>
+			<duration>3237033</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>3</vlc:id>
 			</extension>
