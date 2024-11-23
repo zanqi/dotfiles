@@ -25,7 +25,7 @@
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%281%29.mp4</location>
-			<duration>3237033</duration>
+			<duration>4366930</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>3</vlc:id>
 			</extension>
@@ -39,7 +39,7 @@
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%287%29.mp4</location>
-			<duration>8138826</duration>
+			<duration>287695</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>5</vlc:id>
 			</extension>

@@ -14,6 +14,12 @@ RED='\[\e[0;31m\]'
 GREEN='\[\e[0;32m\]'
 BYELLOW='\[\e[1;33m\]'
 
+
+function timer_start {
+  timer=${timer:-$SECONDS}
+}
+
+trap 'timer_start' DEBUG
 PROMPT_COMMAND=smile
 
 function smile {
@@ -27,10 +33,10 @@ function smile {
     fi
     HC="${BYELLOW}"
     DF='\[\e[0m\]'
-    PS1="\n\t @${HC}\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] ${SC}${DF} \n$ "
+	elaps=$(($SECONDS - $timer))
+  	unset timer
+    PS1="\n${elaps}s @${HC}\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] ${SC}${DF} \n$ "
 }
-
-
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then

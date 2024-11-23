@@ -30,6 +30,8 @@ syntax on
 
 " Disable the default Vim startup message.
 set shortmess+=I
+set shortmess-=S
+
 
 " Show line numbers.
 set number
