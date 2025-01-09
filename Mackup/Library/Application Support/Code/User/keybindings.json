@@ -236,5 +236,9 @@
     {
         "key": "cmd+k cmd+\\",
         "command": "-workbench.action.splitEditorDown"
+    },
+    {
+        "key": "shift+enter",
+        "command": "java.debug.runJavaFile"
     }
 ]

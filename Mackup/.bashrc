@@ -67,3 +67,6 @@ alias ll='ls -lhF --color=auto'
 
 bind 'set completion-ignore-case on'
 
+alias attu='ssh attu.cs.washington.edu'
+alias mv='mv -i'
+alias cp='cp -i'

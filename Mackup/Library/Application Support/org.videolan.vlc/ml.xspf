@@ -11,28 +11,28 @@
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%284%29.mp4</location>
-			<duration>388818</duration>
+			<duration>2255632</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>1</vlc:id>
 			</extension>
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%282%29.mp4</location>
-			<duration>3237094</duration>
+			<duration>570584</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>2</vlc:id>
 			</extension>
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%281%29.mp4</location>
-			<duration>4366930</duration>
+			<duration>307292</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>3</vlc:id>
 			</extension>
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/Worst%20Song%20EVER%20Written_.mp4</location>
-			<duration>758595</duration>
+			<duration>758643</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>4</vlc:id>
 			</extension>

@@ -33,3 +33,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
