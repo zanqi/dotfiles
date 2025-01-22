@@ -239,6 +239,7 @@
     },
     {
         "key": "shift+enter",
-        "command": "java.debug.runJavaFile"
+        "command": "java.debug.runJavaFile",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'java'"
     }
 ]
