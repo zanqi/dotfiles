@@ -11,21 +11,21 @@
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%284%29.mp4</location>
-			<duration>1738756</duration>
+			<duration>1281161</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>1</vlc:id>
 			</extension>
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%282%29.mp4</location>
-			<duration>2194657</duration>
+			<duration>1682889</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>2</vlc:id>
 			</extension>
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%281%29.mp4</location>
-			<duration>1383537</duration>
+			<duration>9511264</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>3</vlc:id>
 			</extension>
@@ -39,7 +39,7 @@
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%287%29.mp4</location>
-			<duration>4589099</duration>
+			<duration>2605046</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>5</vlc:id>
 			</extension>
