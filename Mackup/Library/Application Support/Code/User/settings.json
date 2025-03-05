@@ -100,4 +100,5 @@
     "chat.editing.alwaysSaveWithGeneratedChanges": true,
     "git.openRepositoryInParentFolders": "never",
     "terminal.integrated.fontFamily": "MesloLGS NF",
+    "comfyTsLinter.allowMutation": true,
 }

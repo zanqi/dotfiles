@@ -422,7 +422,7 @@ macosx-continue-playback=1
 #audiobargraph_v-transparency=255
 
 # Bargraph position (integer)
-#audiobargraph_v-position=-1
+audiobargraph_v-position=0
 
 # Bar width in pixel (integer)
 #audiobargraph_v-barWidth=10
@@ -1363,7 +1363,7 @@ macosx-continue-playback=1
 #rss-y=0
 
 # Text position (integer)
-#rss-position=-1
+rss-position=0
 
 # Opacity (integer)
 #rss-opacity=255
@@ -1545,7 +1545,7 @@ macosx-continue-playback=1
 #rmtosd-password=
 
 # VNC poll interval (integer)
-#rmtosd-update=1000
+rmtosd-update=300
 
 # VNC polling (boolean)
 #rmtosd-vnc-polling=0
@@ -3666,7 +3666,7 @@ vout=any
 #osd=1
 
 # Text rendering module (string)
-#text-renderer=
+text-renderer=any
 
 # Use subtitle file (string)
 #sub-file=
@@ -3675,7 +3675,7 @@ vout=any
 #sub-autodetect-file=1
 
 # Subtitle autodetection fuzziness (integer)
-#sub-autodetect-fuzzy=3
+sub-autodetect-fuzzy=1
 
 # Subtitle autodetection paths (string)
 #sub-autodetect-path=./Subtitles, ./subtitles, ./Subs, ./subs
@@ -3948,7 +3948,7 @@ vod-server=any
 #play-and-exit=0
 
 # Play and stop (boolean)
-#play-and-stop=0
+play-and-stop=1
 
 # Play and pause (boolean)
 #play-and-pause=0

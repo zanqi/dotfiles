@@ -9,6 +9,7 @@ alias ll="ls -lhG"
 alias la="ls -lahG"
 alias gs="git status"
 alias gc="git commit"
+alias ga="git add ."
 alias rmi="rm -i"
 alias mv="mv -i"
 alias mkdir="mkdir -p"
@@ -30,3 +31,4 @@ else
 end
 # <<< conda initialize <<<
 
+set FZF_DEFAULT_OPTS "--layout=reverse --color=dark --margin=3% --border=rounded"

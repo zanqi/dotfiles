@@ -11,21 +11,21 @@
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%284%29.mp4</location>
-			<duration>1281161</duration>
+			<duration>838612</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>1</vlc:id>
 			</extension>
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%282%29.mp4</location>
-			<duration>1682889</duration>
+			<duration>1835096</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>2</vlc:id>
 			</extension>
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%281%29.mp4</location>
-			<duration>9511264</duration>
+			<duration>146517</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>3</vlc:id>
 			</extension>
@@ -39,7 +39,7 @@
 		</track>
 		<track>
 			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%287%29.mp4</location>
-			<duration>2605046</duration>
+			<duration>479863</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>5</vlc:id>
 			</extension>
@@ -51,6 +51,30 @@
 				<vlc:id>6</vlc:id>
 			</extension>
 		</track>
+		<track>
+			<location>file:///Users/zanqiliang/Downloads/%5BBraveDown.Com%5D%20%5B%E3%80%90%E8%A1%97%E5%A4%B4%E9%9C%B8%E7%8E%8B6%C2%B7%E5%AF%B9%E6%88%98TV%E3%80%91%E5%AF%BC%E5%B8%88%E5%B0%8F%E5%AD%A9%C2%B7%E4%B8%8D%E7%9F%A5%E7%81%AB%5D%20%5B1740348132%5D%20.mp4</location>
+			<annotation>Bilibili VXCode Swarm Transcoder v1.2.5</annotation>
+			<duration>8966378</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///Users/zanqiliang/Downloads/%5BBraveDown.Com%5D%20%5B%E3%80%90%E8%A1%97%E5%A4%B4%E9%9C%B8%E7%8E%8B6%C2%B7%E5%AF%B9%E6%88%98TV%E3%80%91%E5%AF%BC%E5%B8%88%E5%B0%8F%E5%AD%A9%C2%B7%E4%B8%8D%E7%9F%A5%E7%81%AB%5D%20%5B1740348132%5D%20.mp4</location>
+			<annotation>Bilibili VXCode Swarm Transcoder v1.2.5</annotation>
+			<duration>8966378</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+				<vlc:option>input-slave=/Users/zanqiliang/Downloads/[BraveDown.Com] [【街头霸王6·对战TV】导师小孩·不知火] [1740348148] .mp3</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///Users/zanqiliang/report/JableTVDownload/royd-182/royd-182.mp4</location>
+			<duration>8689035</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
 	</trackList>
 	<extension application="http://www.videolan.org/vlc/playlist/0">
 		<vlc:item tid="0"/>
@@ -60,5 +84,8 @@
 		<vlc:item tid="4"/>
 		<vlc:item tid="5"/>
 		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
 	</extension>
 </playlist>
