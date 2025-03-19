@@ -8,7 +8,7 @@ fish_vi_key_bindings
 alias ll="ls -lhG"
 alias la="ls -lahG"
 alias gs="git status"
-alias gc="git commit"
+alias gc="git commit -m"
 alias ga="git add ."
 alias rmi="rm -i"
 alias mv="mv -i"
