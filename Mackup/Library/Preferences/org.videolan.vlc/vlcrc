@@ -3705,7 +3705,7 @@ sub-autodetect-fuzzy=1
 #audio-language=
 
 # Subtitle language (string)
-#sub-language=
+sub-language=English
 
 # Menu language (string)
 #menu-language=
