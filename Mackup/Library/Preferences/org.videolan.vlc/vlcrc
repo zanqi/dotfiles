@@ -3852,7 +3852,7 @@ sub-language=English
 #input-timeshift-granularity=-1
 
 # Change title according to current media (string)
-#input-title-format=$Z
+input-title-format=$U
 
 # Disable all lua plugins (boolean)
 #lua=1

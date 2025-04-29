@@ -30,8 +30,8 @@
     "git.enableSmartCommit": true,
     "github.copilot.enable": {
         "*": false,
-        "plaintext": true,
-        "markdown": true,
+        "plaintext": false,
+        "markdown": false,
         "scminput": false
     },
     "workbench.colorCustomizations":{
@@ -101,4 +101,11 @@
     "git.openRepositoryInParentFolders": "never",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "comfyTsLinter.allowMutation": true,
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "makefile.configureOnOpen": true,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
+    },
+    "workbench.colorTheme": "Default Dark+",
 }

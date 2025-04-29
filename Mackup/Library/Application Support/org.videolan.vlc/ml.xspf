@@ -3,76 +3,67 @@
 	<title>Media Library</title>
 	<trackList>
 		<track>
-			<location>file:///Users/zanqiliang/Downloads/xiaohai%202.mp4</location>
-			<duration>4947475</duration>
+			<location>file:///Users/zanqiliang/Downloads/Severance%20%282022%29%20Season%202%20S02%20%282160p%20ATVP%20WEB-DL%20x265%20HEVC%2010bit%20DDP%205.1%20Vyndros%29/Severance.S02E03.Who.Is.Alive.2160p.10bit.ATVP.WEB-DL.DDP5.1.HEVC-Vyndros.mkv</location>
+			<title>Severance S02E03</title>
+			<duration>3230226</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>0</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%284%29.mp4</location>
-			<duration>984549</duration>
+			<location>file:///Users/zanqiliang/Downloads/Severance%20%282022%29%20Season%202%20S02%20%282160p%20ATVP%20WEB-DL%20x265%20HEVC%2010bit%20DDP%205.1%20Vyndros%29/Severance.S02E04.Woe%E2%80%99s.Hollow.2160p.10bit.ATVP.WEB-DL.DDP5.1.HEVC-Vyndros.mkv</location>
+			<title>Severance S02E04</title>
+			<duration>3056387</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>1</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%282%29.mp4</location>
-			<duration>884146</duration>
+			<location>file:///Users/zanqiliang/Downloads/Severance%20%282022%29%20Season%202%20S02%20%282160p%20ATVP%20WEB-DL%20x265%20HEVC%2010bit%20DDP%205.1%20Vyndros%29/Severance.S02E05.Trojan%E2%80%99s.Horse.2160p.10bit.ATVP.WEB-DL.DDP5.1.HEVC-Vyndros.mkv</location>
+			<title>Severance S02E05</title>
+			<duration>2812310</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>2</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%281%29.mp4</location>
-			<duration>265311</duration>
+			<location>file:///Users/zanqiliang/Downloads/Severance%20%282022%29%20Season%202%20S02%20%282160p%20ATVP%20WEB-DL%20x265%20HEVC%2010bit%20DDP%205.1%20Vyndros%29/Severance.S02E06.Attila.2160p.10bit.ATVP.WEB-DL.DDP5.1.HEVC-Vyndros.mkv</location>
+			<title>Severance S02E06</title>
+			<duration>2900982</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>3</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///Users/zanqiliang/Downloads/Worst%20Song%20EVER%20Written_.mp4</location>
-			<duration>758643</duration>
+			<location>file:///Users/zanqiliang/Downloads/Severance%20%282022%29%20Season%202%20S02%20%282160p%20ATVP%20WEB-DL%20x265%20HEVC%2010bit%20DDP%205.1%20Vyndros%29/Severance.S02E07.Chikhai.Bardo.2160p.10bit.ATVP.WEB-DL.DDP5.1.HEVC-Vyndros.mkv</location>
+			<title>Severance S02E07</title>
+			<duration>3000372</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>4</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///Users/zanqiliang/Downloads/videoplayback%20%287%29.mp4</location>
-			<duration>152276</duration>
+			<location>file:///Users/zanqiliang/Downloads/Severance%20%282022%29%20Season%202%20S02%20%282160p%20ATVP%20WEB-DL%20x265%20HEVC%2010bit%20DDP%205.1%20Vyndros%29/Severance.S02E08.Sweet.Vitriol.2160p.10bit.ATVP.WEB-DL.DDP5.1.HEVC-Vyndros.mkv</location>
+			<title>Severance S02E08</title>
+			<duration>2245993</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>5</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///Users/zanqiliang/JableTVDownload/ipzz-399/ipzz-399.mp4</location>
-			<duration>9304026</duration>
+			<location>file:///Users/zanqiliang/Downloads/Severance%20%282022%29%20Season%202%20S02%20%282160p%20ATVP%20WEB-DL%20x265%20HEVC%2010bit%20DDP%205.1%20Vyndros%29/Severance.S02E09.The.After.Hours.2160p.10bit.ATVP.WEB-DL.DDP5.1.HEVC-Vyndros.mkv</location>
+			<title>Severance S02E09</title>
+			<duration>2695525</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>6</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///Users/zanqiliang/Downloads/%5BBraveDown.Com%5D%20%5B%E3%80%90%E8%A1%97%E5%A4%B4%E9%9C%B8%E7%8E%8B6%C2%B7%E5%AF%B9%E6%88%98TV%E3%80%91%E5%AF%BC%E5%B8%88%E5%B0%8F%E5%AD%A9%C2%B7%E4%B8%8D%E7%9F%A5%E7%81%AB%5D%20%5B1740348132%5D%20.mp4</location>
-			<annotation>Bilibili VXCode Swarm Transcoder v1.2.5</annotation>
-			<duration>8966378</duration>
+			<location>file:///Users/zanqiliang/Downloads/Severance%20%282022%29%20Season%202%20S02%20%282160p%20ATVP%20WEB-DL%20x265%20HEVC%2010bit%20DDP%205.1%20Vyndros%29/Severance.S02E10.Cold.Harbor.2160p.10bit.ATVP.WEB-DL.DDP5.1.HEVC-Vyndros.mkv</location>
+			<title>Severance S02E10</title>
+			<duration>4551297</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>7</vlc:id>
-			</extension>
-		</track>
-		<track>
-			<location>file:///Users/zanqiliang/Downloads/%5BBraveDown.Com%5D%20%5B%E3%80%90%E8%A1%97%E5%A4%B4%E9%9C%B8%E7%8E%8B6%C2%B7%E5%AF%B9%E6%88%98TV%E3%80%91%E5%AF%BC%E5%B8%88%E5%B0%8F%E5%AD%A9%C2%B7%E4%B8%8D%E7%9F%A5%E7%81%AB%5D%20%5B1740348132%5D%20.mp4</location>
-			<annotation>Bilibili VXCode Swarm Transcoder v1.2.5</annotation>
-			<duration>8966378</duration>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>8</vlc:id>
-				<vlc:option>input-slave=/Users/zanqiliang/Downloads/[BraveDown.Com] [【街头霸王6·对战TV】导师小孩·不知火] [1740348148] .mp3</vlc:option>
-			</extension>
-		</track>
-		<track>
-			<location>file:///Users/zanqiliang/report/JableTVDownload/royd-182/royd-182.mp4</location>
-			<duration>8689035</duration>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>9</vlc:id>
 			</extension>
 		</track>
 	</trackList>
@@ -85,7 +76,5 @@
 		<vlc:item tid="5"/>
 		<vlc:item tid="6"/>
 		<vlc:item tid="7"/>
-		<vlc:item tid="8"/>
-		<vlc:item tid="9"/>
 	</extension>
 </playlist>
