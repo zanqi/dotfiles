@@ -108,4 +108,6 @@
         "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
     },
     "workbench.colorTheme": "Default Dark+",
+    "git.blame.editorDecoration.enabled": false,
+    "git.blame.statusBarItem.enabled": false,
 }
