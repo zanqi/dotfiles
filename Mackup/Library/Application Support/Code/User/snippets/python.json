@@ -277,5 +277,12 @@
 			"prefix": "mark/markdown",
 			"body": "# %% [markdown]",
 			"description": "Code snippet to add a new markdown cell"
+		},
+		"Python debug breakpoint": {
+			"prefix": "breakpoint",
+			"body": [
+				"import code; code.interact(local=locals())"
+			],
+			"description": "Python interactive debug breakpoint"
 		}
 	}

@@ -28,14 +28,8 @@
     },
     "git.autofetch": true,
     "git.enableSmartCommit": true,
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
-    },
-    "workbench.colorCustomizations":{
-        "editor.selectionHighlightBorder" : "#f7f3f5", 
+    "workbench.colorCustomizations": {
+        "editor.selectionHighlightBorder": "#f7f3f5",
     },
     "files.autoSave": "onFocusChange",
     "editor.cursorSmoothCaretAnimation": "on",
@@ -82,7 +76,6 @@
     "editor.fontSize": 13,
     "editor.wrappingIndent": "indent",
     "vim.vimrc.enable": true,
-    "github.copilot.editor.enableAutoCompletions": true,
     "explorer.confirmDragAndDrop": false,
     "vim.useCtrlKeys": false,
     "keyboard.dispatch": "keyCode",
@@ -93,6 +86,9 @@
         "ec2-52-42-171-155.us-west-2.compute.amazonaws.com": "linux",
         "ec2-35-92-191-249.us-west-2.compute.amazonaws.com": "linux",
         "klone-node": "linux"
+    },
+    "remote.SSH.serverInstallPath": {
+        "klone-node": "/mmfs1/gscratch/sciencehub/zq/vscode",
     },
     "diffEditor.maxComputationTime": 0,
     "terminal.integrated.enableMultiLinePasteWarning": false,
@@ -109,4 +105,34 @@
     },
     "git.blame.editorDecoration.enabled": false,
     "git.blame.statusBarItem.enabled": false,
+    "python.analysis.typeCheckingMode": "standard",
+    "gitlens.plusFeatures.enabled": false,
+    "gitlens.ai.enabled": false,
+    "gitlens.telemetry.enabled": false,
+    "vim.handleKeys": {
+        "<C-d>": false,
+        "<C-k>": false,
+        "<C-c>": false,
+        "<C-u>": false,
+        "<C-v>": false,
+        "<C-x>": false,
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-h>": false,
+        "<C-e>": true,
+        "<C-y>": true
+    },
+    "chat.editor.wordWrap": "on",
+    "telemetry.telemetryLevel": "off",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "python": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "vim.smartRelativeLine": true,
+    "window.commandCenter": false,
+    "inlineChat.lineNaturalLanguageHint": false,
 }

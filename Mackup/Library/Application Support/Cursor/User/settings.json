@@ -1,0 +1,152 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "/opt/homebrew/bin/fish",
+      "args": ["-l"]
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "vim.useSystemClipboard": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.colorCustomizations": {
+    "editor.selectionHighlightBorder": "#f7f3f5"
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.stickyScroll.enabled": true,
+  "workbench.editor.wrapTabs": true,
+  "git.confirmSync": false,
+  "editor.renderLineHighlight": "all",
+  "editor.wordWrap": "on",
+  "notebook.output.wordWrap": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.renderWhitespace": "all",
+  "security.workspace.trust.untrustedFiles": "open",
+  "github.copilot.editor.enableCodeActions": false,
+  "jupyter.askForKernelRestart": false,
+  "explorer.confirmDelete": false,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoFormatStrings": true,
+  "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
+  "notebook.stickyScroll.enabled": true,
+  "editor.minimap.showSlider": "always",
+  "editor.lineNumbers": "relative",
+  "redhat.telemetry.enabled": false,
+  "window.zoomLevel": 1,
+  "grammarly.files.include": [
+    "**/readme.md",
+    "**/README.md",
+    "**/*.txt",
+    "**/*.md"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": false,
+  "editor.fontLigatures": true,
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.files.color": "#90a4ae",
+  "window.confirmSaveUntitledWorkspace": false,
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.wrappingIndent": "indent",
+  "vim.vimrc.enable": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "explorer.confirmDragAndDrop": false,
+  "vim.useCtrlKeys": false,
+  "keyboard.dispatch": "keyCode",
+  "remote.SSH.connectTimeout": 30,
+  "remote.SSH.useLocalServer": true,
+  "remote.SSH.remotePlatform": {
+    "10.158.54.36": "linux",
+    "ec2-52-42-171-155.us-west-2.compute.amazonaws.com": "linux",
+    "ec2-35-92-191-249.us-west-2.compute.amazonaws.com": "linux",
+    "klone-node": "linux"
+  },
+  "diffEditor.maxComputationTime": 0,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "explorer.confirmPasteNative": false,
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "git.openRepositoryInParentFolders": "never",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "comfyTsLinter.allowMutation": true,
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "makefile.configureOnOpen": true,
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
+  },
+  "git.blame.editorDecoration.enabled": false,
+  "git.blame.statusBarItem.enabled": false,
+  "python.analysis.typeCheckingMode": "standard",
+  "gitlens.plusFeatures.enabled": false,
+  "gitlens.ai.enabled": false,
+  "gitlens.telemetry.enabled": false,
+  "vim.handleKeys": {
+    "<C-d>": false,
+    "<C-k>": false,
+    "<C-c>": false,
+    "<C-u>": false,
+    "<C-v>": false,
+    "<C-x>": false,
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-h>": false,
+    "<C-e>": true,
+    "<C-y>": true
+  },
+  "chat.editor.wordWrap": "on",
+  "telemetry.telemetryLevel": "off",
+  "cursor.cpp.disabledLanguages": ["plaintext", "scminput"],
+  "datadog.telemetry.setup.suppressMigrationNotification": true,
+  "datadog.telemetry.setup.enableTelemetry": "disabled",
+  "workbench.activityBar.orientation": "vertical",
+  "remote.autoForwardPortsSource": "hybrid",
+  "git.defaultCloneDirectory": "~/repos",
+  "git.globalGitConfig": {
+    "user.name": "Zanqi Liang",
+    "user.email": "zanqi.liang@gmail.com"
+  },
+  "githubPullRequests.pullBranch": "never",
+  "workbench.colorTheme": "Default Dark Modern",
+  "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.smartRelativeLine": true,
+  "cursor.cpp.enablePartialAccepts": true,
+  "inlineChat.lineNaturalLanguageHint": false,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  // Disable some ruff auto fix for dev
+  "ruff.lint.select": ["ALL"],
+  "ruff.configuration": {
+    "lint": {
+      "unfixable": ["F401", "F841"]
+    }
+  }
+}

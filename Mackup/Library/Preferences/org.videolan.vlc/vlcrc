@@ -1835,7 +1835,7 @@ rmtosd-update=300
 [auhal] # HAL AudioUnit output
 
 # Audio volume (integer)
-auhal-volume=384
+auhal-volume=371
 
 # Last audio device (string)
 auhal-audio-device=0
@@ -4548,7 +4548,7 @@ key-crop=
 #extrashort-jump-size=3
 
 # Short jump length (integer)
-#short-jump-size=10
+short-jump-size=8
 
 # Medium jump length (integer)
 #medium-jump-size=60

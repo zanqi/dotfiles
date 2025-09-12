@@ -32,3 +32,4 @@ end
 # <<< conda initialize <<<
 
 set FZF_DEFAULT_OPTS "--layout=reverse --color=dark --margin=3% --border=rounded"
+status --is-interactive; and rbenv init - fish | source
