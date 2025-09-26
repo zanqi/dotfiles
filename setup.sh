@@ -25,11 +25,17 @@ brew install --cask google-drive
 brew install --cask grammarly-desktop
 brew install --cask obsidian
 brew install tldr
-# logi-options-plus not working
-# brew install --cask logi-options-plus
+brew install bat
+brew install eza
+brew install ripgrep
+brew install gh
+brew install --cask docker
+brew install lazydocker
+brew install --cask temurin17
 
 git config --global user.email "zanqi.liang@gmail.com"
 git config --global user.name "Zanqi"
+git config --global push.default simple
 
 # fish
 # fish_add_path /opt/homebrew/bin
@@ -38,8 +44,8 @@ brew install pyenv
 # avoid a bug from brew version of python: https://stackoverflow.com/a/69517932/2382600
 brew install xz
 
-pyenv install 3.11.5
-pyenv global 3.11.5
+pyenv install 3.12.11
+pyenv global 3.12.11
 
 # Optional
 # brew install pyenv-virtualenv

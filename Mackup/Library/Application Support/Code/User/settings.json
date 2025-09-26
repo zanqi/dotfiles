@@ -129,7 +129,7 @@
         "plaintext": false,
         "markdown": false,
         "scminput": false,
-        "python": false
+        "python": true
     },
     "github.copilot.nextEditSuggestions.enabled": true,
     "vim.smartRelativeLine": true,

@@ -244,7 +244,8 @@
     },
     {
         "key": "ctrl+alt+m",
-        "command": "workbench.action.toggleMaximizedPanel"
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "panelFocus"
     },
     // file explorer
     {
@@ -271,5 +272,10 @@
         "key": "a",
         "command": "explorer.newFile",
         "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "workbench.action.maximizeEditorHideSidebar",
+        "when": "editorFocus"
     }
 ]
