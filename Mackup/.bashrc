@@ -12,7 +12,14 @@ function parse_git_branch {
 
 RED='\[\e[0;31m\]'
 GREEN='\[\e[0;32m\]'
+YELLOW='\[\e[0;33m\]'
 BYELLOW='\[\e[1;33m\]'
+BLUE='\[\e[0;34m\]'
+CYAN='\[\e[0;36m\]'
+GRAY='\[\e[0;90m\]'
+BOLD='\[\e[1m\]'
+DIM='\[\e[2m\]'
+RESET='\[\e[0m\]'
 
 
 function timer_start {
@@ -25,17 +32,23 @@ PROMPT_COMMAND=smile
 function smile {
     if [ "$?" -eq "0" ]
     then
-        #smiley
-        SC="${GREEN}:)"
+        SC="${GREEN}"
+        status="${SC}✓"
     else
-        #frowney
-        SC="${RED}:("
+        SC="${RED}"
+        status="${SC}✗"
     fi
-    HC="${BYELLOW}"
-    DF='\[\e[0m\]'
-	elaps=$(($SECONDS - $timer))
-  	unset timer
-    PS1="\n${elaps}s @${HC}\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] ${SC}${DF} \n$ "
+
+    elaps=$(($SECONDS - $timer))
+    # Only show time for commands that took >3 seconds
+    if [ $elaps -gt 3 ]; then
+        time_display=" ${SC}${elaps}s${RESET}"
+    else
+        time_display=""
+    fi
+
+    unset timer
+    PS1="\n${CYAN}\u@${BYELLOW}\h${RESET} ${BLUE}\w${YELLOW}\$(parse_git_branch)${RESET} ${status}${time_display}${RESET}\n${GRAY}$ ${RESET}"
 }
 
 # Source global definitions
@@ -64,9 +77,41 @@ fi
 
 unset rc
 alias ll='ls -lhF --color=auto'
+alias ls='ls -G'
 
 bind 'set completion-ignore-case on'
 
 alias attu='ssh attu.cs.washington.edu'
+alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias cd1='cd -'
+
+alias gs='git status'
+alias gl='git log --oneline --graph --decorate --all'
+alias gd='git diff'
+alias ga='git add --all'
+alias gc='git commit -v'
+alias gp='git push'
+alias gpl='git pull'
+alias gf='git fetch'
+alias gb='git branch'
+alias gco='git checkout'
+alias gcb='git checkout -b'
+alias gm='git merge'
+alias gr='git rebase'
+alias gst='git stash'
+
+alias cat='bat'
+# todo: install fd
+# alias find='fd'
+alias grep='rg'
+
+mkcd() {
+    mkdir -p "$1" && cd "$1"
+}
+
+set -o vi

@@ -21,7 +21,7 @@
             ]
         }
     },
-    "terminal.integrated.defaultProfile.osx": "fish",
+    "terminal.integrated.defaultProfile.osx": "bash",
     "vim.useSystemClipboard": true,
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
@@ -32,8 +32,7 @@
         "editor.selectionHighlightBorder": "#f7f3f5",
     },
     "files.autoSave": "onFocusChange",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "smooth",
+    "editor.cursorBlinking": "solid",
     "editor.stickyScroll.enabled": true,
     "workbench.editor.wrapTabs": true,
     "git.confirmSync": false,
@@ -135,4 +134,8 @@
     "vim.smartRelativeLine": true,
     "window.commandCenter": false,
     "inlineChat.lineNaturalLanguageHint": false,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "chat.editing.confirmEditRequestRemoval": false,
+    "editor.cursorSmoothCaretAnimation": "on",
 }

@@ -159,11 +159,6 @@
         "when": "editorTextFocus && jupyter.ownsSelection && !findInputFocussed && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
     },
     {
-        "key": "ctrl+shift+c",
-        "command": "github.copilot.generate",
-        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
-    },
-    {
         "key": "ctrl+enter",
         "command": "-github.copilot.generate",
         "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
@@ -277,5 +272,36 @@
         "key": "ctrl+alt+m",
         "command": "workbench.action.maximizeEditorHideSidebar",
         "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "github.copilot.completions.disable",
+        "when": "config.editor.inlineSuggest.enabled && github.copilot.activated && github.copilot.completions.enabled"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "github.copilot.completions.enable",
+        "when": "config.editor.inlineSuggest.enabled && github.copilot.activated && !github.copilot.completions.enabled"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "workbench.action.toggleMaximizedAuxiliaryBar",
+        "when": "auxiliaryBarVisible && auxiliaryBarFocus"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "alt+cmd+b",
+        "command": "-workbench.action.toggleAuxiliaryBar"
     }
 ]

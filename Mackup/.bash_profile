@@ -1,3 +1,7 @@
+# Source .bashrc if it exists
+if [ -f ~/.bashrc ]; then
+    source ~/.bashrc
+fi
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -14,3 +18,8 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"

@@ -32,5 +32,5 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"
+export PATH="$JAVA_HOME/bin:$PATH"
