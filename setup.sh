@@ -24,6 +24,7 @@ brew install --cask rectangle
 brew install --cask google-drive
 brew install --cask grammarly-desktop
 brew install --cask obsidian
+brew install --cask notion
 brew install tldr
 brew install bat
 brew install eza
@@ -32,6 +33,8 @@ brew install gh
 brew install --cask docker
 brew install lazydocker
 brew install --cask temurin17
+brew install bash
+brew install wget
 
 git config --global user.email "zanqi.liang@gmail.com"
 git config --global user.name "Zanqi"
@@ -68,8 +71,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 defaults write -g InitialKeyRepeat -int 13
 defaults write -g KeyRepeat -int 1
 
-which fish | sudo tee -a /etc/shells
-which fish | xargs chsh -s
-
 # fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
 # fish -c "fisher install IlanCosman/tide@v6"
+
+which bash | sudo tee -a /etc/shells
+which bash | xargs chsh -s

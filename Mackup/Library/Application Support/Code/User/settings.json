@@ -138,4 +138,5 @@
     "gitlens.ai.vscode.model": "copilot:gpt-4.1",
     "chat.editing.confirmEditRequestRemoval": false,
     "editor.cursorSmoothCaretAnimation": "on",
+    "notebook.lineNumbers": "on",
 }

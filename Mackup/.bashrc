@@ -115,3 +115,10 @@ mkcd() {
 }
 
 set -o vi
+
+# Append to history file immediately, otherwise, new sessions won't see updates
+shopt -s histappend
+PROMPT_COMMAND="history -a; history -c; history -r; ${PROMPT_COMMAND}"
+export HISTSIZE=10000
+export HISTFILESIZE=20000
+export HISTCONTROL=ignoredups:erasedups

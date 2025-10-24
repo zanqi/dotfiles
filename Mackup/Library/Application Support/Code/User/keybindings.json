@@ -237,11 +237,6 @@
         "command": "java.debug.runJavaFile",
         "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'java'"
     },
-    {
-        "key": "ctrl+alt+m",
-        "command": "workbench.action.toggleMaximizedPanel",
-        "when": "panelFocus"
-    },
     // file explorer
     {
         "key": "c",
@@ -271,22 +266,17 @@
     {
         "key": "ctrl+alt+m",
         "command": "workbench.action.maximizeEditorHideSidebar",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+shift+c",
-        "command": "github.copilot.completions.disable",
-        "when": "config.editor.inlineSuggest.enabled && github.copilot.activated && github.copilot.completions.enabled"
-    },
-    {
-        "key": "ctrl+shift+c",
-        "command": "github.copilot.completions.enable",
-        "when": "config.editor.inlineSuggest.enabled && github.copilot.activated && !github.copilot.completions.enabled"
+        "when": "sidebarVisible || panelVisible"
     },
     {
         "key": "ctrl+alt+m",
         "command": "workbench.action.toggleMaximizedAuxiliaryBar",
         "when": "auxiliaryBarVisible && auxiliaryBarFocus"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "panelFocus"
     },
     {
         "key": "ctrl+alt+h",
@@ -303,5 +293,10 @@
     {
         "key": "alt+cmd+b",
         "command": "-workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "github.copilot.completions.toggle",
+        "when": "github.copilot.activated"
     }
 ]
