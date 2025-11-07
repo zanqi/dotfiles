@@ -32,9 +32,11 @@ brew install ripgrep
 brew install gh
 brew install --cask docker
 brew install lazydocker
-brew install --cask temurin17
+brew install --cask temurin@17
 brew install bash
 brew install wget
+brew install --cask stats
+brew install btop
 
 git config --global user.email "zanqi.liang@gmail.com"
 git config --global user.name "Zanqi"

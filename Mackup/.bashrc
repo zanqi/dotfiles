@@ -30,7 +30,9 @@ trap 'timer_start' DEBUG
 PROMPT_COMMAND=smile
 
 function smile {
-    if [ "$?" -eq "0" ]
+    local last_exit=$?
+
+    if [ "$last_exit" -eq "0" ]
     then
         SC="${GREEN}"
         status="${SC}✓"
@@ -118,7 +120,7 @@ set -o vi
 
 # Append to history file immediately, otherwise, new sessions won't see updates
 shopt -s histappend
-PROMPT_COMMAND="history -a; history -c; history -r; ${PROMPT_COMMAND}"
+PROMPT_COMMAND="smile; history -a; history -c; history -r"
 export HISTSIZE=10000
 export HISTFILESIZE=20000
 export HISTCONTROL=ignoredups:erasedups
