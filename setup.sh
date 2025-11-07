@@ -51,6 +51,9 @@ brew install xz
 
 pyenv install 3.12.11
 pyenv global 3.12.11
+pip install --upgrade pip
+pip install numpy scipy matplotlib jupyterlab panda seaborn plotly
+pip install 'markitdown[all]'
 
 # Optional
 # brew install pyenv-virtualenv
