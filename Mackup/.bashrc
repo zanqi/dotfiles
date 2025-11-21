@@ -48,7 +48,13 @@ function smile {
     elaps=$(($SECONDS - $timer))
     # Only show time for commands that took >3 seconds
     if [ $elaps -gt 3 ]; then
-        time_display=" ${SC}${elaps}s${RESET}"
+        if [ $elaps -ge 60 ]; then
+            mins=$((elaps/60))
+            secs=$((elaps%60))
+            time_display=" ${SC}${mins}m${secs}s${RESET}"
+        else
+            time_display=" ${SC}${elaps}s${RESET}"
+        fi
     else
         time_display=""
     fi

@@ -271,7 +271,7 @@
     {
         "key": "ctrl+alt+m",
         "command": "workbench.action.maximizeEditorHideSidebar",
-        "when": "sidebarVisible || panelVisible"
+        "when": "editorFocus"
     },
     {
         "key": "ctrl+alt+m",
@@ -303,5 +303,20 @@
         "key": "ctrl+shift+c",
         "command": "github.copilot.completions.toggle",
         "when": "github.copilot.activated"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-notebook.addFindMatchToSelection",
+        "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-extension.vim_cmd+d",
+        "when": "editorTextFocus && vim.active && vim.use<D-d> && !inDebugRepl"
     }
 ]

@@ -32,8 +32,7 @@
         "editor.selectionHighlightBorder": "#f7f3f5",
     },
     "files.autoSave": "onFocusChange",
-    "editor.cursorBlinking": "solid",
-    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.enabled": false,
     "workbench.editor.wrapTabs": true,
     "git.confirmSync": false,
     "editor.renderLineHighlight": "gutter",
@@ -141,4 +140,12 @@
     "workbench.colorTheme": "GitHub Dark Default",
     "terminal.integrated.fontLigatures.enabled": true,
     "terminal.integrated.fontWeight": "bold",
+    "diffEditor.wordWrap": "off",
+    "editor.cursorBlinking": "expand",
+    "editor.smoothScrolling": true,
+    "scm.graph.showOutgoingChanges": false,
+    "chat.tools.terminal.autoApprove": {
+        "timeout": true,
+        "./run-tests.py": true
+    },
 }

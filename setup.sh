@@ -70,7 +70,7 @@ cp dotfiles/Mackup/.mackup.cfg ~/
 mkdir /.mackup && cp dotfiles/Mackup/.mackup/my-files.cfg "$_"
 
 
-mackup restore --force && mackup uninstall --force
+mackup restore --force && mackup --force link uninstall
 
 defaults write -g ApplePressAndHoldEnabled -bool false
 defaults write -g InitialKeyRepeat -int 13
