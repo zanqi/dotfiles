@@ -126,7 +126,8 @@
         "plaintext": false,
         "markdown": false,
         "scminput": false,
-        "python": true
+        "python": false,
+        "java": true
     },
     "github.copilot.nextEditSuggestions.enabled": true,
     "vim.smartRelativeLine": true,
@@ -148,4 +149,9 @@
         "timeout": true,
         "./run-tests.py": true
     },
+    "geminicodeassist.project": "resounding-axe-528",
+    "geminicodeassist.enableTelemetry": false,
+    "geminicodeassist.inlineSuggestions.enableAuto": false,
+    "geminicodeassist.displayInlineContextHint": false,
+    "diffEditor.codeLens": true,
 }
