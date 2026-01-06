@@ -55,7 +55,6 @@
     ],
     "notebook.stickyScroll.enabled": true,
     "editor.minimap.showSlider": "always",
-    "editor.lineNumbers": "relative",
     "redhat.telemetry.enabled": false,
     "window.zoomLevel": 1,
     "grammarly.files.include": [
@@ -154,4 +153,7 @@
     "geminicodeassist.inlineSuggestions.enableAuto": false,
     "geminicodeassist.displayInlineContextHint": false,
     "diffEditor.codeLens": true,
+    "python.createEnvironment.trigger": "off",
+    "editor.lineNumbers": "relative",
+    "chat.viewSessions.orientation": "stacked",
 }

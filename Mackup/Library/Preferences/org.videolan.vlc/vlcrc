@@ -1835,7 +1835,7 @@ rmtosd-update=300
 [auhal] # HAL AudioUnit output
 
 # Audio volume (integer)
-auhal-volume=371
+auhal-volume=384
 
 # Last audio device (string)
 auhal-audio-device=0
@@ -3183,7 +3183,7 @@ glconv=any
 #croppadd-paddtop=0
 
 # Pixels to padd to bottom (integer)
-#croppadd-paddbottom=0
+croppadd-paddbottom=75
 
 # Pixels to padd to left (integer)
 #croppadd-paddleft=0
@@ -3654,7 +3654,7 @@ glconv=any
 vout=any
 
 # Video filter module (string)
-#video-filter=
+video-filter=croppadd
 
 # Video splitter module (string)
 #video-splitter=
