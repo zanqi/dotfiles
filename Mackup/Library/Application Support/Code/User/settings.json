@@ -122,10 +122,10 @@
     "telemetry.telemetryLevel": "off",
     "github.copilot.enable": {
         "*": true,
-        "plaintext": false,
-        "markdown": false,
+        "plaintext": true,
+        "markdown": true,
         "scminput": false,
-        "python": false,
+        "python": true,
         "java": true
     },
     "github.copilot.nextEditSuggestions.enabled": true,
@@ -156,4 +156,5 @@
     "python.createEnvironment.trigger": "off",
     "editor.lineNumbers": "relative",
     "chat.viewSessions.orientation": "stacked",
+    "gitlens.showWhatsNewAfterUpgrades": false,
 }

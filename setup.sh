@@ -48,11 +48,14 @@ git config --global push.default simple
 brew install pyenv
 # avoid a bug from brew version of python: https://stackoverflow.com/a/69517932/2382600
 brew install xz
+brew install node
 
-pyenv install 3.12.11
-pyenv global 3.12.11
+npm install -g @google/gemini-cli
+
+pyenv install 3.12.12
+pyenv global 3.12.12
 pip install --upgrade pip
-pip install numpy scipy matplotlib jupyterlab panda seaborn plotly
+pip install numpy scipy matplotlib jupyterlab pandas seaborn plotly
 pip install 'markitdown[all]'
 
 # Optional
@@ -67,7 +70,7 @@ brew install mackup
 git clone https://github.com/zanqi/dotfiles.git
 
 cp dotfiles/Mackup/.mackup.cfg ~/
-mkdir /.mackup && cp dotfiles/Mackup/.mackup/my-files.cfg "$_"
+mkdir ~/.mackup && cp dotfiles/Mackup/.mackup/my-files.cfg "$_"
 
 
 mackup restore --force && mackup --force link uninstall

@@ -6,6 +6,7 @@ export LC_ALL=en_US.UTF-8
 function parse_git_dirty {
   [[ $(git status --porcelain 2> /dev/null) ]] && echo "*"
 }
+
 function parse_git_branch {
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ (\1$(parse_git_dirty))/"
 }
@@ -60,7 +61,7 @@ function smile {
     fi
 
     unset timer
-    PS1="\n${CYAN}\u@${BYELLOW}\h${RESET} ${BLUE}\w${YELLOW}\$(parse_git_branch)${RESET} ${status}${time_display}${RESET}\n${GRAY}$ ${RESET}"
+    PS1="\n${CYAN}\u@${BYELLOW}\h${RESET} ${BLUE}\w${YELLOW}$(parse_git_branch)${RESET} ${status}${time_display}${RESET}\n${GRAY}$ ${RESET}"
 }
 
 # Source global definitions
@@ -117,7 +118,6 @@ alias gm='git merge'
 alias gr='git rebase'
 alias gst='git stash'
 
-alias cat='bat'
 # todo: install fd
 # alias find='fd'
 alias grep='rg'
@@ -134,3 +134,6 @@ PROMPT_COMMAND="smile"
 export HISTSIZE=10000
 export HISTFILESIZE=20000
 export HISTCONTROL=ignoredups:erasedups
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
