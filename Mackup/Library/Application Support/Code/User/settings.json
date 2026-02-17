@@ -157,4 +157,5 @@
     "editor.lineNumbers": "relative",
     "chat.viewSessions.orientation": "stacked",
     "gitlens.showWhatsNewAfterUpgrades": false,
+    "workbench.startupEditor": "none",
 }
