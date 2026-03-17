@@ -61,7 +61,7 @@ function smile {
     fi
 
     unset timer
-    PS1="\n${CYAN}\u@${BYELLOW}\h${RESET} ${BLUE}\w${YELLOW}$(parse_git_branch)${RESET} ${status}${time_display}${RESET}\n${GRAY}$ ${RESET}"
+    PS1="\n${CYAN}\u@${BYELLOW}\h${RESET} ${BLUE}\w${YELLOW}$(parse_git_branch)${RESET} ${status}${time_display}${RESET}\n${GREEN}$ ${RESET}"
 }
 
 # Source global definitions
@@ -121,6 +121,7 @@ alias gst='git stash'
 # todo: install fd
 # alias find='fd'
 alias grep='rg'
+alias t='tmux attach || tmux new-session'
 
 mkcd() {
     mkdir -p "$1" && cd "$1"
