@@ -53,15 +53,9 @@ brew install node
 
 npm install -g @google/gemini-cli
 
-pyenv install 3.12.12
-pyenv global 3.12.12
+pyenv install 3.14
+pyenv global 3.14
 pip install --upgrade pip
-pip install numpy scipy matplotlib jupyterlab pandas seaborn plotly
-pip install 'markitdown[all]'
-
-# Optional
-# brew install pyenv-virtualenv
-# pyenv virtualenv 3.11.5 cs224u
 
 # echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
 # echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
