@@ -46,21 +46,45 @@ git config --global push.default simple
 # fish
 # fish_add_path /opt/homebrew/bin
 
-brew install pyenv
+# miniconda
+brew install --cask miniconda
+
+# Detect miniconda path
+CONDA_BASE_PATH="$(brew --prefix)/Caskroom/miniconda/base"
+if [ -d "$CONDA_BASE_PATH" ]; then
+    # We need to source it to use the 'conda' command within this script
+    export PATH="$CONDA_BASE_PATH/bin:$PATH"
+    
+    # 1. Skip the "conda init" nag by doing it now for all shells
+    "$CONDA_BASE_PATH/bin/conda" init bash
+    "$CONDA_BASE_PATH/bin/conda" init zsh
+    "$CONDA_BASE_PATH/bin/conda" init fish
+
+    # 2. Avoid the "Anaconda Terms of Service" prompt by preferring conda-forge
+    # and setting up the channels immediately.
+    "$CONDA_BASE_PATH/bin/conda" config --add channels conda-forge
+    "$CONDA_BASE_PATH/bin/conda" config --set channel_priority strict
+    
+    # 3. Disable noisy "news" and "outdated" prompts
+    "$CONDA_BASE_PATH/bin/conda" config --set notify_outdated_conda false
+    "$CONDA_BASE_PATH/bin/conda" config --set anniversary_check false
+    
+    # 4. Ensure base is auto-activated so 'python' works out of the box
+    "$CONDA_BASE_PATH/bin/conda" config --set auto_activate_base true
+    
+    # Install Python 3.14 in base environment
+    "$CONDA_BASE_PATH/bin/conda" install -n base python=3.14 -y
+fi
+
 # avoid a bug from brew version of python: https://stackoverflow.com/a/69517932/2382600
 brew install xz
 brew install node
 
 npm install -g @google/gemini-cli
 
-pyenv install 3.14
-pyenv global 3.14
-pip install --upgrade pip
+# Update pip using the conda python
+python -m pip install --upgrade pip
 
-# echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
-# echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
-
-# echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 brew install mackup
 git clone https://github.com/zanqi/dotfiles.git
 
@@ -69,6 +93,13 @@ mkdir ~/.mackup && cp dotfiles/Mackup/.mackup/my-files.cfg "$_"
 
 
 mackup restore --force && mackup --force link uninstall
+
+# Re-run init after mackup restore just in case restore overwrote the shell configs
+if [ -d "$CONDA_BASE_PATH" ]; then
+    "$CONDA_BASE_PATH/bin/conda" init bash
+    "$CONDA_BASE_PATH/bin/conda" init zsh
+    "$CONDA_BASE_PATH/bin/conda" init fish
+fi
 
 defaults write -g ApplePressAndHoldEnabled -bool false
 defaults write -g InitialKeyRepeat -int 13
