@@ -60,8 +60,14 @@ function smile {
         time_display=""
     fi
 
+    local conda_env=""
+    if [ -n "$CONDA_DEFAULT_ENV" ]; then
+        # Format it exactly like Conda does, maybe using the GRAY or GREEN color you defined
+        conda_env="${GRAY}(${CONDA_DEFAULT_ENV})${RESET} "
+    fi
+
     unset timer
-    PS1="\n${CYAN}\u@${BYELLOW}\h${RESET} ${BLUE}\w${YELLOW}$(parse_git_branch)${RESET} ${status}${time_display}${RESET}\n${GREEN}$ ${RESET}"
+    PS1="\n${conda_env}${CYAN}\u@${BYELLOW}\h${RESET} ${BLUE}\w${YELLOW}$(parse_git_branch)${RESET} ${status}${time_display}${RESET}\n${GREEN}$ ${RESET}"
 }
 
 # Source global definitions

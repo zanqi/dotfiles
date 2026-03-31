@@ -137,7 +137,6 @@
     "chat.editing.confirmEditRequestRemoval": false,
     "editor.cursorSmoothCaretAnimation": "on",
     "notebook.lineNumbers": "on",
-    "workbench.colorTheme": "GitHub Dark Default",
     "terminal.integrated.fontLigatures.enabled": true,
     "terminal.integrated.fontWeight": "bold",
     "diffEditor.wordWrap": "off",

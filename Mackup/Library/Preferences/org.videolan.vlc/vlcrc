@@ -3503,7 +3503,7 @@ glconv=any
 #audio-time-stretch=1
 
 # Audio output module (string)
-#aout=
+aout=any
 
 # Media role (string)
 #role=video
@@ -3515,7 +3515,7 @@ glconv=any
 #audio-visual=none
 
 # Audio resampler (string)
-#audio-resampler=
+audio-resampler=any
 
 # Enable video (boolean)
 #video=1
@@ -3665,7 +3665,7 @@ text-renderer=any
 #sub-autodetect-file=1
 
 # Subtitle autodetection fuzziness (integer)
-sub-autodetect-fuzzy=1
+sub-autodetect-fuzzy=-1
 
 # Subtitle autodetection paths (string)
 #sub-autodetect-path=./Subtitles, ./subtitles, ./Subs, ./subs
@@ -3692,7 +3692,7 @@ sub-autodetect-fuzzy=1
 #sub-track=-1
 
 # Audio language (string)
-#audio-language=
+audio-language=Eng
 
 # Subtitle language (string)
 sub-language=English
