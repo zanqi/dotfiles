@@ -156,4 +156,9 @@
     "editor.lineNumbers": "relative",
     "gitlens.showWhatsNewAfterUpgrades": false,
     "workbench.startupEditor": "none",
+    "window.autoDetectColorScheme": true,
+    "terminal.integrated.initialHint": false,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
 }

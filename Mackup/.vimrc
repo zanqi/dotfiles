@@ -127,3 +127,22 @@ set ts=4 sw=4
 
 :set hlsearch
 
+" ==========================
+" Seamless Tmux Navigation
+" ==========================
+function! TmuxMove(direction)
+    let oldw = winnr()
+    execute 'wincmd ' . a:direction
+    
+    " If the window number didn't change, we are at the edge of Vim.
+    " Time to tell Tmux to take over.
+    if oldw == winnr()
+        let dir_map = {'h': 'L', 'j': 'D', 'k': 'U', 'l': 'R'}
+        call system('tmux select-pane -' . dir_map[a:direction])
+    endif
+endfunction
+
+nnoremap <silent> <C-h> :call TmuxMove('h')<CR>
+nnoremap <silent> <C-j> :call TmuxMove('j')<CR>
+nnoremap <silent> <C-k> :call TmuxMove('k')<CR>
+nnoremap <silent> <C-l> :call TmuxMove('l')<CR>
