@@ -102,7 +102,6 @@
     "git.blame.editorDecoration.enabled": false,
     "git.blame.statusBarItem.enabled": false,
     "python.analysis.typeCheckingMode": "standard",
-    "gitlens.plusFeatures.enabled": false,
     "gitlens.ai.enabled": false,
     "gitlens.telemetry.enabled": false,
     "vim.handleKeys": {
@@ -125,7 +124,7 @@
         "plaintext": true,
         "markdown": true,
         "scminput": false,
-        "python": true,
+        "python": false,
         "java": true
     },
     "github.copilot.nextEditSuggestions.enabled": true,
@@ -161,4 +160,6 @@
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
+    "gitlens.plusFeatures.enabled": false,
+    "chat.viewSessions.orientation": "stacked",
 }

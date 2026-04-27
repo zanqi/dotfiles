@@ -3173,7 +3173,7 @@ glconv=any
 #croppadd-paddtop=0
 
 # Pixels to padd to bottom (integer)
-#croppadd-paddbottom=0
+croppadd-paddbottom=75
 
 # Pixels to padd to left (integer)
 #croppadd-paddleft=0
