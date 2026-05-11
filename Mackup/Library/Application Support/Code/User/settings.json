@@ -162,4 +162,5 @@
     },
     "gitlens.plusFeatures.enabled": false,
     "chat.viewSessions.orientation": "stacked",
+    "git.addAICoAuthor": "off",
 }

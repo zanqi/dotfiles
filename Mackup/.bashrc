@@ -81,6 +81,7 @@ then
     PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 fi
 export PATH
+export GDRIVE="$HOME/Library/CloudStorage/GoogleDrive-keylazy@gmail.com/My Drive"
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
@@ -108,6 +109,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias cd1='cd -'
+alias cdg='cd "$HOME/Library/CloudStorage/GoogleDrive-keylazy@gmail.com/My Drive"'
 
 alias gs='git status'
 alias gl='git log --oneline --graph --decorate --all'
